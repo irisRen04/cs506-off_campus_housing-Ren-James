@@ -21,7 +21,7 @@ As students, creating a useful tool that could synthesize the conditions and rep
 
 # Clear goal(s) (e.g. successfully predict the number of students attending lecture based on the weather report).
 
-	Synthesize data from housing violation and condition datasets and higher education off-campus reports to better understand where students live, what percentage of renters are students in each district, and the housing conditions students experience. Successfully visualize the growth of off-campus housing student living patterns and living conditions based on historical data on property and building conditions and violations.
+Synthesize data from housing violation and condition datasets and higher education off-campus reports to better understand where students live, what percentage of renters are students in each district, and the housing conditions students experience. Successfully visualize the growth of off-campus housing student living patterns and living conditions based on historical data on property and building conditions and violations.
 
 
 # What data needs to be collected, and how you will collect it (e.g. scraping xyz website or polling students).
@@ -35,10 +35,12 @@ For modeling, the project will use either a binary classification model or a clu
 
 # How do you plan on visualizing the data? (e.g. interactive t-SNE plot, scatter plot of feature x vs. feature y). 
 	
-	Geographic maps of the districts with filters for housing violation categories, including a compiled filter/layer that emphasizes areas or buildings that have the most housing violations/issues perhaps with size or color scales for points. Having a consistent geographic map and key for filters would also help with creating timelines over the past few years or overall growth since the base year of 2013.
+Geographic maps of the districts with filters for housing violation categories, including a compiled filter/layer that emphasizes areas or buildings that have the most housing violations/issues perhaps with size or color scales for points. Having a consistent geographic map and key for filters would also help with creating timelines over the past few years or overall growth since the base year of 2013.
 If time permits, an interactive map that could include adding and removing these filters and zooming into the regions and areas to see specific addresses. Furthermore, synthesizing multiple time snapshots of data could be useful, to see how over time if certain neighborhoods increase in student populations more than others and how that does or does not correspond with housing violations or issues in that area.
-	Bar graphs could also be used for counts of housing violations within certain neighborhoods as it relates to percentages of tenants who are students. 
-	Further studies could include pairing qualitative data online or in semi-structured interviews/surveys to understand the tradeoffs, benefits, and barriers that different students who are living off-campus deal with most. Understanding why students are choosing off-campus housing over on-campus housing could be extremely helpful for higher education institutions within Boston when considering how they structure their Housing systems and could be helpful for new students with similar backgrounds or priorities who are considering their housing for the school year.
+
+Bar graphs could also be used for counts of housing violations within certain neighborhoods as it relates to percentages of tenants who are students. 
+
+Further studies could include pairing qualitative data online or in semi-structured interviews/surveys to understand the tradeoffs, benefits, and barriers that different students who are living off-campus deal with most. Understanding why students are choosing off-campus housing over on-campus housing could be extremely helpful for higher education institutions within Boston when considering how they structure their Housing systems and could be helpful for new students with similar backgrounds or priorities who are considering their housing for the school year.
 
 
 # What is your test plan? (e.g. withhold 20% of data for testing, train on data collected in October and test on data collected in November, etc.). –Rianna 
@@ -47,7 +49,7 @@ Our plan will be the following:
 
 Split the data set to have 60% used for training the model and 40% to test the model 
 
-Weekly Meetings will be on Sunday, at 2 PM or sometime in the afternoon as appropriate with Iris Ren and rjames34@bu.edu
+Weekly Meetings will be on Sunday, at 2 PM or sometime in the afternoon as appropriate with Iris Ren and Rianna James.
 
 Timeline of when each component of the project will be worked on/ completed: 
 
