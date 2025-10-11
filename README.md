@@ -5,13 +5,9 @@ Semester: Fall 2025
 
 # Core Question: 
 
-Question  → question in predicting 
+Can we identify distinct groups of landlords or neighborhoods based on their building property violation patterns?
 
-What landlords are non-compliant? Overall volume, severe violations.
-Are there clusters of properties where landlords are non-compliant?
-
-Which rental properties with student tenants are most likely to receive severe housing violations in the coming year? → Leaning towards 
-
+This will be helpful for students who need to determine which landlords, neighborhoods, and adresses get the most violations for when they need to pick housing. 
 
 # Background/Context:
 
@@ -31,7 +27,7 @@ The data that will be collected is the building and property violations, student
 
 # How you plan on modeling the data (e.g. clustering, fitting a linear model, decision trees, XGBoost, some sort of deep learning method, etc.). Rianna
 
-For modeling, the project will use either a binary classification model or a clustering model. Classification will separate data into two groups, such as landlords who received severe complaints versus those who did not. Clustering will instead group together landlords or properties with similar violation patterns, revealing trends and hotspots without requiring labeled data.
+For modeling we will use either kmeans or hierarchical clustering, which will seperate the data into similar groups based off their violation patterns. 
 
 # How do you plan on visualizing the data? (e.g. interactive t-SNE plot, scatter plot of feature x vs. feature y). 
 	
