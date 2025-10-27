@@ -3,6 +3,11 @@ Authors: Iris Ren and Rianna James
 Course: CS506
 Semester: Fall 2025
 
+# Midterm Report Video
+
+https://bostonu.zoom.us/rec/share/oDDnZVMfL9L_EIJ43DrbA07GmsMK3QIsgKYx_b1o1V76ncdQDW1TqptJOwUllHwK._Wml_58rhFiJGZOM?startTime=1761530489000
+Passcode: .2d$qw*t
+
 # Core Question: 
 
 Can we identify distinct groups of landlords or neighborhoods based on their building property violation patterns?
