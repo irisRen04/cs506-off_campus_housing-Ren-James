@@ -1,0 +1,101 @@
+@import "@fontsource-variable/inter";
+
+:root {
+  --boston-blue: #367BCA; /* Boston Blue */
+  --orange: #FE7743; /* Orange */
+  --boston-yellow: #DFBC1E; /* Boston Yellow */
+  --success-color: #28a745; /* Green */
+  --error-color: #dc3545; /* Red */
+  --med-color: #355C96; /* Boston Med Blue */
+  --dark-color: #1D356D; /* Boston Dark Blue */
+  --text-color: #333;
+  --background-light: #F8F8F8; /* Boston White */
+}
+
+body {
+    font-family: 'Inter Variable', sans-serif;
+    background-color: var(--background-light);
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  width: 565px;
+  justify-content:space-evenly;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark-color);
+  font-family: 'Inter Variable', sans-serif;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+ul li a:hover {
+  background-color: var(--orange);
+}
+
+.yearsbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+.years {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Related to Year Nav Bar */
+.years:hover {
+  background-color: var(--boston-yellow);
+  text-decoration: underline;
+  color: white;
+}
+
+.yearsnav {
+  float: left;
+  width: 30%;
+}
+
+.yearsresult {
+  float: right;
+  width: 70%;
+}
+
+.generalresult {
+    background-color: var(--boston-blue);
+}
+
+.top10 {
+  float: left;
+  width: 30%;
+}
+
+.overlay {
+  float: right;
+  width: 70%;
+}
