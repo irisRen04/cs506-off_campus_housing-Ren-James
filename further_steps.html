@@ -35,7 +35,8 @@
             However, we found enormous variability with the input of addresses, and unlike our Housing 
             Violations dataset, Student Addresses didn't have precise latitude and longitude coordinates. Rianna cleaned the columns and
             separated them best for the API, but there were still little cases that were missed with our method of cleaning the data (matching
-            on potential words with a dictionary like "str" vs. "str." vs. "st." and replacing with "street") resulted in some of our data not translating
+            on potential words with a dictionary like "str" vs. "str." vs. "st." and replacing with "street" or separting out long lines incorrectly placed 
+            like a "Commonwealth Avenue Apt 5" in the Street Name column that should be separated into Street Name, Prefix, and Unit separately) resulted in some of our data not translating
             well to the API.
             <br><br>
             For example in 2022-2023 and 2023-2024 school years respectively, around 1440 af the 11000+ student addresses had to be discarded due to not successfully
@@ -43,6 +44,7 @@
         </p>
     </div>
     <div class = "rightcol1">
+        <img src="images\Studies.png" style="width: 100%; padding-top: 120px;" alt="">
     </div>
 
     <div class = "leftcol2">
