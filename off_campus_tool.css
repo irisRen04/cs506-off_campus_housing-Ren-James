@@ -38,11 +38,11 @@ body {
   font-family: 'Inter Variable', sans-serif;
 }
 
-ul li {
+.navbar li {
   float: left;
 }
 
-ul li a {
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -51,20 +51,23 @@ ul li a {
   font-size: 1.4em;
 }
 
-ul li a:hover {
+.navbar li a:hover {
   background-color: var(--orange);
 }
 
 .yearsbar {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   width: 200px;
+  height: 215px; /* Set the height of the box */
+  background-color: var(--med-color);
 }
 
-.years {
+.years a {
   display: block;
-  color: black;
+  color: white;
+  align-items: center;
   padding: 8px 16px;
   text-decoration: none;
   font-size: 1.4em;
@@ -72,7 +75,6 @@ ul li a:hover {
 
 /* Related to Year Nav Bar */
 .years:hover {
-  background-color: var(--boston-yellow);
   text-decoration: underline;
   color: white;
 }
@@ -88,15 +90,94 @@ ul li a:hover {
 }
 
 .generalresult {
+    width: 95%; /* Set the width of the box */
+    height: 680px; /* Set the height of the box */
     background-color: var(--boston-blue);
+    padding: 20px;
+    color: white;
 }
 
 .top10 {
   float: left;
-  width: 30%;
+  width: 35%;
 }
 
-.overlay {
+.overlayresult {
   float: right;
+  width: 65%;
+}
+
+/* Handle Top 10 Images */
+#top10_students { 
+    width: 100%;
+}
+
+#top10_violations { 
+    width: 100%;
+}
+
+.schoolresult {
+    width: 95%; /* Set the width of the box */
+    height: 700px; /* Set the height of the box */
+    background-color: var(--boston-yellow);
+    padding: 20px;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #DFBC1E;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  max-height: calc(6 * 1.5em); /* Adjust 1.5em based on your option's line-height/font-size */
+  overflow-y: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside dropdown content */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change background color of dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #ccb031;
+}
+
+.form {
+  display: flex;
+  margin-left: 30px;
+  align-items: baseline;
+}
+
+#violationImage {
   width: 70%;
 }

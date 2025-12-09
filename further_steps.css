@@ -1,0 +1,82 @@
+@import "@fontsource-variable/inter";
+
+:root {
+  --boston-blue: #367BCA; /* Boston Blue */
+  --orange: #FE7743; /* Orange */
+  --boston-yellow: #DFBC1E; /* Boston Yellow */
+  --success-color: #28a745; /* Green */
+  --error-color: #dc3545; /* Red */
+  --med-color: #355C96; /* Boston Med Blue */
+  --dark-color: #1D356D; /* Boston Dark Blue */
+  --text-color: #333;
+  --background-light: #F8F8F8; /* Boston White */
+}
+
+body {
+    font-family: 'Inter Variable', sans-serif;
+    background-color: var(--background-light);
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  width: 685px;
+  justify-content:space-evenly;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark-color);
+  font-family: 'Inter Variable', sans-serif;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.navbar li a:hover {
+  background-color: var(--orange);
+}
+
+.leftcol1 {
+  float: left;
+  width: 60%;
+}
+
+.rightcol1 {
+  float: right;
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+
+
+.leftcol2 {
+  float: left;
+  width: 35%;
+}
+
+.rightcol2 {
+  float: right;
+  width: 65%;
+}
+
+h2 {
+  clear: both; /* Clears the float from the previous element */
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off Campus Tool</title>
+    <link rel="stylesheet" href="off_campus_tool.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "navigation"> 
+        <ul class = "navbar">
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="news.asp">Our Project</a></li>
+            <li style="text-decoration: underline; text-decoration-color: white"><a href="off_campus.html">Off Campus Tool</a></li>
+            <li><a href="further_steps.html">Further Steps</a></li>
+        </ul>
+    </div>
+    <div class="row">
+    <div class="yearsnav">
+    <h1>School Year</h1>
+    <ul class="yearsbar">
+        <li class="years"><a href="off_campus_20_21.html">2020-2021</li>
+        <li class="years"><a href="off_campus_21_22.html">2021-2022</li>
+        <li class="years" style="text-decoration: underline; text-decoration-color: white"><a href="off_campus_22_23.html">2022-2023</li>
+        <li class="years"><a href="off_campus_23_24.html">2023-2024</li>
+    </ul>
+    </div>
+    <h1 style="float: right"><2022-2023></h1>
+    <div class="yearsresult">
+        <div class = "generalresult">
+            <div class = "top10">
+                <h2>Top 10 Student Populations Off Campus</h2>
+                <img id = "top10_students" src="Assets\Assets\MostStudentsyears22_23.png" alt="">
+                <h2>Top 10 Housing Violations</h2>
+                <img id = "top10_violations" src="\Assets\Assets\22_23\housingviolations_22_23.png" alt="">
+            </div>
+            <div class = "overlayresult">
+                <h2 style = "float: right; width:70%; text-align: right;">Housing Violations and Student Populations Overlay</h2>
+            </div>
+        </div>
+        <br> 
+        <h1 style="float: right; margin: 20px 0;">School and Violation Comparison Tool for 2020-2021 School Year</h1>
+            
+        <div class="form">
+            <div class="dropdown">
+            <button id="schoolBtn" class="dropbtn">Select a School</button>
+            <div class="dropdown-content">
+                <a onclick="setSchool('University_of_Massachusetts-Boston')">UMASS Boston</a>
+                <a onclick="setSchool('Northeastern_University')">Northeastern U</a>
+                <a onclick="setSchool('Boston_University')">Boston U</a>
+                <a onclick="setSchool('Berklee_College_of_Music-Boston_Conservatory')">Berklee & Boston Conservatory</a>
+                <a onclick="setSchool('Suffolk_University')">Suffolk U</a>
+                <a onclick="setSchool('MA_College_of_Pharmacy_and_Health_Sciences')">MCPHS</a>
+                <a onclick="setSchool('Massachusetts_Insitute_of_Technology')">MIT</a>
+                <a onclick="setSchool('Tufts_University')">Tufts U</a>
+                <a onclick="setSchool('Harvard_University')">Harvard U</a>
+            </div>
+            </div>
+
+            <div class="dropdown" style="margin-left:10px; margin-top:15px;">
+            <button id="violationBtn" class="dropbtn">Housing Violation</button>
+            <div class="dropdown-content">
+                <a onclick="setViolation('Failure_to_Obtain_Permit')">Failure to Obtain Permit</a>
+                <a onclick="setViolation('Unsafe_and_Dangerous')">Unsafe and Dangerous</a>
+                <a onclick="setViolation('Maintenance')">Maintenance</a>
+                <a onclick="setViolation('Testing_and_Certification')">Testing and Certification</a>
+                <a onclick="setViolation('Unsafe_Structures')">Unsafe Structures</a>
+                <a onclick="setViolation('Failed_to_comply_w_permit_term')">Failed to comply w permit term</a>
+            </div>
+            </div>
+
+            <button onclick = "switchImage()" style = "margin-left:10px; margin-top:15px; width: 100px; height: 40px">Investigate!</button>
+        </div>
+        <img id="violationImage" src="" alt="Violation Image" >
+    </div>
+    </div>
+    </div>
+<script>
+  // Track current selections
+  let activeYear = "22_23";          // update dynamically if you add year switching
+  let activeSchool = "";             // set when user picks a school
+  let activeViolation = "";          // set when user picks a violation
+
+  // Called when a school is selected
+  function setSchool(schoolKey) {
+    activeSchool = schoolKey;
+    document.getElementById("schoolBtn").innerText = schoolKey;
+  }
+
+  // Called when a violation is selected
+  function setViolation(violationKey) {
+    activeViolation = violationKey;
+    document.getElementById("violationBtn").innerText = violationKey;
+  }
+
+  // Called when "Investigate!" button is pressed
+  function switchImage() {
+    if (!activeSchool || !activeViolation) {
+      alert("Please select both a school and a violation first.");
+      return;
+    }
+
+    // Construct path: Assets/Assets/<year>/<school>/<violation>_<year>.png
+    let path = 'Assets/Assets/'+activeYear+'/'+activeSchool+'/'+activeViolation+"_"+activeYear+'.png';
+    console.log(path);
+
+    // Update image
+    document.getElementById("violationImage").src = path;
+  }
+</script>
+</body>
