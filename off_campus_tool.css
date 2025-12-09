@@ -12,6 +12,7 @@
   --background-light: #F8F8F8; /* Boston White */
 }
 
+/* NAV Bar code */
 body {
     font-family: 'Inter Variable', sans-serif;
     background-color: var(--background-light);
