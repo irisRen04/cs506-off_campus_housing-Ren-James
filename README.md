@@ -3,10 +3,20 @@ Authors: Iris Ren and Rianna James
 Course: CS506
 Semester: Fall 2025
 
-# Midterm Report Video
-
+# Final Report Video
+[
 https://bostonu.zoom.us/rec/share/oDDnZVMfL9L_EIJ43DrbA07GmsMK3QIsgKYx_b1o1V76ncdQDW1TqptJOwUllHwK._Wml_58rhFiJGZOM?startTime=1761530489000
 Passcode: .2d$qw*t
+](https://bostonu.zoom.us/rec/share/3RW1ftP1xi3F7Pks3hIZg1FtSo5mpVvJ1wHHeCSdhXnB4EoW88BodDO_yM83zwyg.f-9KR0oINzwi3rJT?startTime=1765397303000
+Passcode: p5UU@&B@)
+
+# How to Run our Code
+Our Code features lots of pieces of moving code to reproduce our results. Our runnable files include Building_Property.ipynb and Student_addresses.ipynb, which are the python notebooks for how we cleaned the Housing Violations and Student Addresses datasets(note that our Student Addresses original dataset was too large to add to the github, so instead the dataset can be found within the google folder below).
+
+# Additional Folder
+Part of running our API code involved creating Google Colab files to run the long processes on separate computers. We have added the key notebooks into the repository, but the notebooks reference certain pathways within a google drive folder, which is much too large to add into the repository as is due to Github limits. As a result, we share the shareable link below.
+
+Additional Files and Code: https://drive.google.com/drive/folders/1lEkAf49IrRurfrcpcsWRRrCiu5Wm-fsY?usp=sharing.
 
 # Core Question: 
 
@@ -72,10 +82,6 @@ Data visualization:   By October 20th
 * Maintain a complete log within shared Github repository of progress
 * 5-min youtube presentation
 * Create a detailed Report including the Midterm Report details
-
-Model training, deployment, and evaluation metrics( ???):  By October 27,  November + December 12 
-* Create preliminary model and fitting it to the data 
-* Evaluate model performance 
 
 Important Deadlines: 
 * Midterm report: October 27th
