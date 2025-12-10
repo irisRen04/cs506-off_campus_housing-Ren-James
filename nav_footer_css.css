@@ -1,0 +1,117 @@
+@import "@fontsource-variable/inter";
+
+:root {
+  --boston-blue: #367BCA; /* Boston Blue */
+  --orange: #FE7743; /* Orange */
+  --boston-yellow: #DFBC1E; /* Boston Yellow */
+  --success-color: #28a745; /* Green */
+  --error-color: #dc3545; /* Red */
+  --med-color: #355C96; /* Boston Med Blue */
+  --dark-color: #1D356D; /* Boston Dark Blue */
+  --text-color: #333;
+  --background-light: #F8F8F8; /* Boston White */
+}
+
+/* NAV Bar code */
+body {
+    font-family: 'Inter Variable', sans-serif;
+    background-color: var(--background-light);
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  width: 685px;
+  justify-content:space-evenly;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark-color);
+  font-family: 'Inter Variable', sans-serif;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.navbar li a:hover {
+  background-color: var(--orange);
+}
+
+
+/* Footer styles */
+  footer {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 30px 20px;
+    margin-top: auto;
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .footer-nav li {
+    display: inline;
+  }
+
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+
+  .footer-nav a:hover {
+    color: #ffd966;
+  }
+
+  .footer-text {
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #2d5a8f;
+    margin: 20px 0;
+  }
+
+.footer_dup{
+  margin-top: 65px;
+}
+

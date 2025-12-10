@@ -1,5 +1,6 @@
 
-/* Come back to fix this */
+
+
 .meet-text {
   display: flex;
   justify-content: center; /* Centers horizontally */
@@ -113,7 +114,4 @@
   fill: #333;
 }
 
-.footer_dup{
-  margin-top: 65px;
 
-}
