@@ -71,15 +71,13 @@ body {
   align-items: center;
 }
 
-
-.leftcol2 {
-  float: left;
-  width: 35%;
+.top {
+  margin-bottom: 20px;
 }
 
 .rightcol2 {
   float: right;
-  width: 65%;
+  width: 100%;
 }
 
 h1 {
