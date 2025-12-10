@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+
+<!-- Meta data about the page  -->
+<head>
+    <title> Our Project</title>
+
+    <link rel ="stylesheet" href = "about_us.css">
+    <link rel ="stylesheet" href = "off_campus_tool.css">
+    <link rel ="stylesheet" href = "about_project.css">
+    
+
+</head>
+
+<body>
+
+     <div class = "navigation"> 
+        <ul class = "navbar">
+            <li><a href="index.html">About Us</a></li>
+            <li  style="text-decoration: underline; text-decoration-color: white"> <a href="about_project.html">Our Project</a></li>
+            <li><a href="off_campus.html">Off Campus Tool</a></li>
+            <li><a href="further_steps.html">Further Steps</a></li>
+        </ul>
+    </div>
+
+<!-- Hero Section -->
+<div class="hero">
+  <h1>Off-Campus Student Housing Analysis</h1>
+  <p>Using data to help Boston students find safe, reliable housing</p>
+</div>
+
+<!-- Main Content -->
+<div class="container">
+
+  <!-- Overview -->
+  <div class="content-section">
+    <h2>Our Goal</h2>
+    <p>
+      Boston has over 96,000 undergraduate and 65,000 graduate students. More than half of undergrads live off-campus, 
+      and most of those aren't living at home. Unlike students in dorms, off-campus renters don't get the same level 
+      of security services or guaranteed living conditions. Many deal with difficult landlords or unsafe neighborhoods 
+      without really knowing what they're getting into.
+    </p>
+    <p>
+      We're building a tool that puts all the important information in one place. By looking at building violations, 
+      student housing patterns, and neighborhood data, we want to help students figure out which areas and landlords 
+      are actually reliable.
+    </p>
+
+    <div class="question-box">
+      <p>Can we identify which landlords and neighborhoods have the worst violation records?</p>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="content-section">
+    <h2>Data Insights</h2>
+    <div class="stats">
+      <div class="stat-box">
+        <h3>96K+</h3>
+        <p>Undergrad Students</p>
+      </div>
+      <div class="stat-box">
+        <h3>51%</h3>
+        <p>Live Off-Campus</p>
+      </div>
+      <div class="stat-box">
+        <h3>64%</h3>
+        <p>Don't Live at Home</p>
+      </div>
+    </div>
+    <p style="margin-top: 20px;">
+      That's a lot of students trying to navigate Boston's rental market on their own. This project is about giving 
+      them better information to work with.
+    </p>
+  </div>
+
+  <!-- Goals -->
+  <div class="content-section">
+    <h2>Off Campus Tool</h2>
+    <div class="goals">
+      <div class="goal-item">
+        <h3>Combining the Data</h3>
+        <p>We're pulling together housing violations, property records, and student housing info to see the full picture of what off-campus living actually looks like.</p>
+      </div>
+      <div class="goal-item">
+        <h3>Finding Patterns</h3>
+        <p>Using machine learning (K-means clustering) to group neighborhoods and landlords based on their violation histories and how many students live there.</p>
+      </div>
+      <div class="goal-item">
+        <h3>Making Maps</h3>
+        <p>Interactive maps that show where violations are concentrated, with filters so you can look at specific types of problems.</p>
+      </div>
+      <div class="goal-item">
+        <h3>Tracking Changes</h3>
+        <p>Reviewing data from 2020-2024</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Approach -->
+  <div class="content-section">
+    <h2>How We're Doing It</h2>
+    
+    <p><strong>Where the data comes from:</strong></p>
+    <ul>
+      <li>Building and property violations Dataset</li>
+      <li>Student housing dataset from BUSpark</li>
+      <li>Property assessment information dataset</li>
+      <li>Historical records going back to 2013</li>
+    </ul>
+
+    <p style="margin-top: 20px;"><strong>The technical approach:</strong></p>
+    <p>
+      We're using K-means clustering to find groupings in the data. This will helps us spot patterns—like 
+      neighborhoods where violations are common, or landlords who consistently have problems across multiple properties.
+    </p>
+
+    <p style="margin-top: 20px;"><strong>Tools we're using:</strong></p>
+    <div class="tech-tags">
+      <span class="tag">Python</span>
+      <span class="tag">Pandas</span>
+      <span class="tag">NumPy</span>
+      <span class="tag">Scikit-learn</span>
+      <span class="tag">K-means</span>
+      <span class="tag">Matplotlib</span>
+      <span class="tag">Geographic mapping</span>
+    </div>
+  </div>
+
+  <!-- Visualizations -->
+
+
+  <!-- Timeline -->
+  <div class="content-section">
+    <h2>Project Timeline</h2>
+    <img> 
+  </div>
+
+  <!-- Mission -->
+  <div class="content-section">
+    <h2>Why This Matters</h2>
+    <p>
+      As students, we know how hard it is to find good off-campus housing. The rental market can feel pretty hopeless and
+      you don't really know what you're getting into until you've already signed a lease.
+    </p>
+    <p>
+      This project is about creating some transparency. If we can show which landlords have consistent problems, 
+      or which neighborhoods have the most violations, students can make better decisions. Hopefully this will
+      push landlords to take better care of their properties.
+    </p>
+    <p>
+      Down the road, we'd also like to talk to students directly about their experiences and understand why people 
+      choose off-campus housing despite the challenges, and what could make it better.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-content">
+    <ul class="footer-nav">
+      <li><a href="index.html">About Us</a></li>
+      <li><a href="about_project.html">Our Project</a></li>
+      <li><a href="off_campus.html">Off Campus Tool</a></li>
+      <li><a href="further_steps.html">Further Steps</a></li>
+    </ul>
+    
+    <div class="footer-divider"></div>
+    
+    <p class="footer-text">
+      Off-Campus Student Housing Analysis © 2025
+    </p>
+  </div>
+</footer>
+
+</body>
