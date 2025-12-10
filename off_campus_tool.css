@@ -17,6 +17,9 @@ body {
     font-family: 'Inter Variable', sans-serif;
     background-color: var(--background-light);
     padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation {
@@ -81,7 +84,7 @@ body {
 
 .yearsnav {
   float: left;
-  width: 30%;
+  width: 25%;
 }
 
 .yearsresult {
@@ -236,3 +239,21 @@ body {
     background-color: #2d5a8f;
     margin: 20px 0;
   }
+
+  
+h1 {
+  color: var(--dark-color);
+  color: #1D356D;
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-bottom: 5px solid #367BCA;
+  padding-bottom: 8px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: black;
+  line-height: 1.7;
+}

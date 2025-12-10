@@ -16,6 +16,11 @@ body {
     font-family: 'Inter Variable', sans-serif;
     background-color: var(--background-light);
     padding: 20px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .navigation {
@@ -77,6 +82,24 @@ body {
   width: 65%;
 }
 
+h1 {
+  color: var(--dark-color);
+  color: #1D356D;
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-bottom: 5px solid #367BCA;
+  padding-bottom: 8px;
+}
+
 h2 {
   clear: both; /* Clears the float from the previous element */
+  color: var(--boston-blue);
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: black;
+  line-height: 1.7;
 }
