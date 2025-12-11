@@ -3,9 +3,11 @@ Authors: Iris Ren and Rianna James
 Course: CS506
 Semester: Fall 2025
 
+# Final Project Website
+https://irisren04.github.io/cs506-off_campus_housing-Ren-James/index.html
+
 # Final Report Video
-[
-https://bostonu.zoom.us/rec/share/oDDnZVMfL9L_EIJ43DrbA07GmsMK3QIsgKYx_b1o1V76ncdQDW1TqptJOwUllHwK._Wml_58rhFiJGZOM?startTime=1761530489000
+[https://bostonu.zoom.us/rec/share/oDDnZVMfL9L_EIJ43DrbA07GmsMK3QIsgKYx_b1o1V76ncdQDW1TqptJOwUllHwK._Wml_58rhFiJGZOM?startTime=1761530489000
 Passcode: .2d$qw*t
 ](https://bostonu.zoom.us/rec/share/3RW1ftP1xi3F7Pks3hIZg1FtSo5mpVvJ1wHHeCSdhXnB4EoW88BodDO_yM83zwyg.f-9KR0oINzwi3rJT?startTime=1765397303000
 Passcode: p5UU@&B@)
